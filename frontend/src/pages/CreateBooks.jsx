@@ -20,7 +20,7 @@ const CreateBooks = () => {
     };
     setLoading(true);
     axios
-      .post("https://bookstore-mern-hqto.onrender.com/books", data)
+      .post("https://bookstore-mern-3dhd.onrender.com/books", data)
       .then(() => {
         setLoading(false);
         navigate("/");
