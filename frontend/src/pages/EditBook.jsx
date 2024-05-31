@@ -39,7 +39,7 @@ const EditBook = () => {
     };
     setLoading(true);
     axios
-      .put(`https://bookstore-mern-hqto.onrender.com/${id}`, data)
+      .put(`https://bookstore-mern-hqto.onrender.com/books/${id}`, data)
       .then(() => {
         setLoading(false);
         navigate("/");
